@@ -1,24 +1,31 @@
 # City Explorer API
 
 **Author**: Ethan Luxton
-**Version**: 1.0.0 
+**Version**: 1.4.0
 
 ## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
+This is a express server intended to handle requests for API data from my front-end react app. It handles requests for both weather and movie data for locations inputted by the user and is hosted on Heroku.
 
 ## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+Clone down this repo using:
+```
+git clone https://github.com/ethan-luxton/city-explorer-api.git
+```
 
+Then in your newly cloned repository use:
+```
+npm start
+```
+
+This should start the server on port 3001 on localhost. NOTE: You must have the frontend and backend running on the same time. The front end will be on port 3000 and the backend will be on port 3001. 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+Express.js
+Axios
+dotEnv
+cors
+JavaScript
 
 ## Change Log
-<!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
-
-01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
-
-## Credit and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 
 ---------------------------------------------------------------------------
 
@@ -31,3 +38,40 @@ Start time: 3:00pm
 Finish time: 7:24pm
 
 Actual time needed to complete: 4:24
+
+---------------------------------------------------------------------------
+
+Name of feature: Lab 08: Movie and Weather APIs
+
+Estimate of time needed to complete: 4 hours
+
+Start time: 7:00pm
+
+Finish time: 9:35pm
+
+Actual time needed to complete: 2:35
+
+---------------------------------------------------------------------------
+
+Name of feature: Lab 09: Stylizing and refactoring
+
+Estimate of time needed to complete: 3 hours
+
+Start time: 2:30pm
+
+Finish time: 4:51pm
+
+Actual time needed to complete: 2:21
+
+---------------------------------------------------------------------------
+
+Name of feature: Lab 10: Adding cache storage for API data
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 7:00pm
+
+Finish time: 7:20pm
+
+Actual time needed to complete: 0:20
+
